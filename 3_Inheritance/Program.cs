@@ -4,7 +4,12 @@ namespace _3_Inheritance
 {
     class Printer
     {
-        public void Print(string value)
+        public void BaseMethod()
+        {
+            Console.WriteLine("Base method!");
+        }
+
+        public virtual void Print(string value)
         {
             Random randomColorNumber = new Random();            
 
@@ -33,19 +38,25 @@ namespace _3_Inheritance
 
     class Book : Printer
     {
-        public string Title { get; set; }
-
         public string Author { get; set; }
 
-        public Book(string title, string author) : base()
-        {
-            Title = title;
+        public Book(string author) : base()
+        {            
             Author = author;
         }
 
-        public void PrintBook()
+        public override void Print(string value)
         {
-            base.Print(Title);
+            base.Print(value);           
+        }
+
+        public void Print(Book book)
+        {
+            base.Print(book.Author);
+        }
+
+        public void Print()
+        {
             base.Print(Author);
         }
     }
@@ -56,9 +67,21 @@ namespace _3_Inheritance
 
         static void Main(string[] args)
         {
-            Book book = new Book("Code Complete", "Steve McConnell");
+            Book book = new Book("Steve McConnell");
 
-            book.PrintBook();
+            book.BaseMethod();
+
+            book.Print("Steve McConnell");
+
+            book.Print(book.Author);
+
+            book.Print(book);
+
+            book.Print();
+
+            
+
+
            
         }
     }
