@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31025.194
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dotnet-Esential-Task", "Dotnet-Esential-Task\Dotnet-Esential-Task.csproj", "{830EB8B8-0B04-4383-9750-B9C4B8E6130D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dotnet-Esential-Task", "Dotnet-Esential-Task\Dotnet-Esential-Task.csproj", "{830EB8B8-0B04-4383-9750-B9C4B8E6130D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_Classes", "1_Classes\1_Classes.csproj", "{2DD25E81-F492-4637-B564-4DD6321D7D15}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1_Classes", "1_Classes\1_Classes.csproj", "{2DD25E81-F492-4637-B564-4DD6321D7D15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2_Classes", "2_Classes\2_Classes.csproj", "{89F3CD82-C5DA-40BA-84DF-49E459D7844A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2_Classes", "2_Classes\2_Classes.csproj", "{89F3CD82-C5DA-40BA-84DF-49E459D7844A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_Inheritance", "3_Inheritance\3_Inheritance.csproj", "{D05E7605-8D14-476E-B87F-E9D99A04EA05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3_Inheritance", "3_Inheritance\3_Inheritance.csproj", "{D05E7605-8D14-476E-B87F-E9D99A04EA05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_Inheritance", "4_Inheritance\4_Inheritance.csproj", "{462682C2-C854-4659-A13F-68CD2CACAA8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4_Inheritance", "4_Inheritance\4_Inheritance.csproj", "{462682C2-C854-4659-A13F-68CD2CACAA8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_Inheritance", "5_Polymorphism\5_Inheritance.csproj", "{8ADF6C56-2844-40CB-AE3E-3968F87D18DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{462682C2-C854-4659-A13F-68CD2CACAA8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{462682C2-C854-4659-A13F-68CD2CACAA8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{462682C2-C854-4659-A13F-68CD2CACAA8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8ADF6C56-2844-40CB-AE3E-3968F87D18DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ADF6C56-2844-40CB-AE3E-3968F87D18DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ADF6C56-2844-40CB-AE3E-3968F87D18DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ADF6C56-2844-40CB-AE3E-3968F87D18DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
