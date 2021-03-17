@@ -16,9 +16,7 @@ namespace _6_Abstraction
         abstract public void Open();
         abstract public void Create();
         abstract public void Chenge();
-        abstract public void Save();
-        public void TestMethods() { Console.WriteLine("Test Method"); }
-        virtual public void VirtualMethods() { Console.WriteLine("AbstractHandler.VirtualMethods"); }
+        abstract public void Save();        
     }
 
     class XMLHandler : AbstractHandler
@@ -41,17 +39,7 @@ namespace _6_Abstraction
         public override void Save()
         {
             Console.WriteLine("Save XML");
-        }
-
-        public void TestMethodClass()
-        {
-            Console.WriteLine("Test Method Class!!!");
-        }
-
-        public override void VirtualMethods()
-        {
-            Console.WriteLine("Override Virtual Method");
-        }
+        }     
     }
 
     class TXTHandler : AbstractHandler
@@ -111,11 +99,7 @@ namespace _6_Abstraction
             xmlHandler.Open();
             xmlHandler.Chenge();          
             xmlHandler.Save();
-            xmlHandler.TestMethods();
-            xmlHandler.VirtualMethods();
-
-
-
+            
             AbstractHandler txtHandler = new TXTHandler();            
 
             txtHandler.Create();

@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5_Inheritance", "5_Polymorp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6_Abstraction", "6_Abstraction\6_Abstraction.csproj", "{0A9099AA-837D-4E23-ABAF-98942EFB8F16}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7_Interface", "7_Interface\7_Interface.csproj", "{6B4C4A83-A2E4-457A-8645-D7EAA3FC727E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{0A9099AA-837D-4E23-ABAF-98942EFB8F16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A9099AA-837D-4E23-ABAF-98942EFB8F16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A9099AA-837D-4E23-ABAF-98942EFB8F16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B4C4A83-A2E4-457A-8645-D7EAA3FC727E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B4C4A83-A2E4-457A-8645-D7EAA3FC727E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B4C4A83-A2E4-457A-8645-D7EAA3FC727E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B4C4A83-A2E4-457A-8645-D7EAA3FC727E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
