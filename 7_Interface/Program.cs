@@ -56,6 +56,20 @@ namespace _7_Interface
             player.Pause();
             player.Record();
             player.Stop();
+
+            IPlayable playerPlayable = new Player();
+
+            playerPlayable.Play();
+            playerPlayable.Pause();
+            //playerPlayable.Record();
+            playerPlayable.Stop();
+
+            IRecodable playerRecodable = new Player();
+
+            //playerRecodable.Play();
+            playerRecodable.Pause();
+            playerRecodable.Record();
+            playerRecodable.Stop();
         }
     }
 }
